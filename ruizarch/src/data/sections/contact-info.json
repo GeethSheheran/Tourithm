@@ -1,0 +1,16 @@
+{
+    "button": {
+        "label": "Find a Space",
+        "link": "/contact"
+    },
+    "items": [
+        {
+            "label": "Email address",
+            "value": "info@ceriture.com"
+        },
+        {
+            "label": "Free Consultation",
+            "value": "+94 76 567 1421"
+        }
+    ]
+}

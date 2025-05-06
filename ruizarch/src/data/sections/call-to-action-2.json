@@ -1,0 +1,13 @@
+{
+    "title": "Get started with the project today",
+    "subtitle": "Bring your ideas to life",
+    "phone": {
+        "label": "New project",
+        "value": "+94 76 567 1421"
+    },
+    "button": {
+        "label": "get expert help",
+        "link": "/contact"
+    },
+    "bg_image": "/img/photo/service.jpg"
+}

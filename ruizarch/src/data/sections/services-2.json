@@ -1,0 +1,46 @@
+{
+    "title": "What We Do",
+    "description": "EMPOWERING SRI LANKA’S TOURISM BUSINESSES TO THRIVE IN THE DIGITAL ERA!",
+    "items": [
+        {
+            "title": "Web Development",
+            "text": "We build fast, responsive websites that attract and convert travelers with seamless booking and language support.",
+            "link": "/services/service-1"
+        },
+        {
+            "title": "Mobile Application Development",
+            "text": "Booking, planning, and exploring, tailored to your brand and easy to use on the go.",
+            "link": "/services/service-2"
+        },
+        {
+            "title": "Social Media Management",
+            "text": "Grow your audience and drive bookings with tourism-focused content and ads",
+            "link": "/services/service-3"
+        },
+        {
+            "title": "Content Writing",
+            "text": "Create SEO content that tells your story, builds trust, and drives traffic through blogs, guides, emails, and more.",
+            "link": "/services/service-4"
+        },
+        {
+            "title": "Design & Branding",
+            "text": "Create impactful logos, brochures, and graphics that reflect your tourism brand and build recognition.",
+            "link": "/services/service-5"
+        },
+        {
+            "title": "SEO & Analytics",
+            "text": "Boost visibility with expert SEO for higher rankings and analytics tools to understand customer behavior and drive results.",
+            "link": "/services/service-6"
+        },
+        {
+            "title": "Tourism Research & Campaigns",
+            "text": "We use industry expertise and local insights to guide your marketing, helping you stay ahead and attract new customers.",
+            "link": "/services/service-7"
+        },
+        {
+            "title": "Copyrighted Stock Photos & Videos",
+            "text": "Elevate your brand with high-quality Sri Lanka photos and videos, perfect for all your promotions.",
+            "link": "/services/service-8"
+        }
+    ]
+}

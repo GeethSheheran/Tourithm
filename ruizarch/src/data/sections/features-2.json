@@ -1,0 +1,38 @@
+{
+    "items": [
+      {
+        "title": "Perfect <br>Planning",
+        "text": "We develop well-structured, strategic plans tailored to the tourism sector. By analyzing traveler behavior, seasonal demand, and destination potential, we guide businesses toward sustainable growth and stronger market positioning.",
+        "list": [
+          "Destination Growth Strategy",
+          "Traveler Journey Mapping",
+          "Seasonal Trend Analysis",
+          "Tour Experience Planning",
+          "Scalable Business Models"
+        ]
+      },
+      {
+        "title": "Professional <br>Design",
+        "text": "Our design approach combines creativity with usability, ensuring your tourism brand stands out while delivering a seamless experience. From visual identity to booking-friendly interfaces, we craft every element with travelers in mind.",
+        "list": [
+          "Tourism UI/UX",
+          "Visual Brand Identity",
+          "Destination Page Design",
+          "Mobile-Friendly Layouts",
+          "Booking-Focused Interfaces"
+        ]
+      },
+      {
+        "title": "Best Experts <br>Team",
+        "text": "Our team is made up of graduates and specialists in tourism, design, and technology. With hands-on experience and industry insight, we build practical, innovative solutions that help tourism businesses succeed.",
+        "list": [
+          "Tourism Tech Experts",
+          "Cross-Functional Team",
+          "Global Industry Insight",
+          "Agile Project Delivery",
+          "Traveler-Centric Focus"
+        ]
+      }
+    ]
+  }
+  

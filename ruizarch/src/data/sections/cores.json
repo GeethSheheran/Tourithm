@@ -1,0 +1,36 @@
+{
+    "bg_image": "/img/covers/faq.jpg",
+    "title": "Everything You Need to Know Before Working With Us",
+    "subtitle": "Frequently Asked Questions",
+    "description": "We understand that choosing the right digital partner is a big decision. This FAQ section answers common questions our tourism clients ask—covering how we work, what to expect, and how our services can truly transform your business.",
+    "button": {
+        "link": "/services",
+        "label": "Read More"
+    },
+    "items": [
+        {
+            "title": "What improvements will I see?",
+            "text": "You can expect increased online visibility, better customer engagement, and a stronger brand presence in the tourism market.."
+        },
+        {
+            "title": "How will you help me get more customers?",
+            "text": "Through targeted digital marketing, compelling content, and optimized platforms, we help turn online interest into real bookings."
+        },
+        {
+            "title": "Can you make my brand stand out?",
+            "text": "Yes, we craft unique digital experiences that highlight your brand’s story and value, making you more memorable to travelers."
+        },
+        {
+            "title": "When will I see results?",
+            "text": "While some results like improved engagement or branding can be seen early, sustainable growth typically builds over 3–6 months."
+        },
+        {
+            "title": "Will I know how to manage things after?",
+            "text": "Yes. We provide training and easy-to-use systems so you stay in control of your digital assets."
+        },
+        {
+            "title": "Do you offer support after launch?",
+            "text": "Absolutely. We offer continued support and optional maintenance packages to ensure your digital presence remains strong."
+        }
+    ]
+}

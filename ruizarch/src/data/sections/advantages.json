@@ -1,0 +1,24 @@
+{
+    "title": "Our Process for Your Success",
+    "subtitle": "Our Advantages",
+    "description": "From planning to launch, we handle your entire tourism project with expert care, ensuring a seamless, beautiful, and results-driven digital experience.",
+    "items": [
+        {
+            "title": "Strategy & Planning",
+            "text": "We dive into your tourism goals, audience, and brand to develop a clear, tailored strategy that guides the entire project."
+        },
+        {
+            "title": "Design",
+            "text": "We create a modern, intuitive design that captures attention and delivers a seamless experience across all devices."
+        },
+        {
+            "title": "Development",
+            "text": "Our team builds fast, secure websites with integrated features like booking engines, payment gateways, and content management systems."
+        },
+        {
+            "title": "Launch & Growth",
+            "text": "We ensure a smooth launch with SEO, analytics, and performance checks, then support you with updates, training, and ongoing optimization to grow your reach and bookings."
+
+        }
+    ]
+}

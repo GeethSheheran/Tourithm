@@ -1,0 +1,25 @@
+{
+    "title": "Our Soul",
+    "subtitle": "Good Vision",
+    "button": {
+        "label": "See All",
+        "link": "/blog"
+    },
+    "items": [
+        {
+            "title": "Strategic Planning",
+            "icon": "/img/icons/11.svg",
+            "text": "Focused on creating clear, actionable roadmaps for business growth and success."
+        },
+        {
+            "title": "Innovative Solutions",
+            "icon": "/img/icons/11.svg",
+            "text": "Emphasizing cutting-edge technology and creativity to solve complex challenges."
+        },
+        {
+            "title": "Sustainable Growth",
+            "icon": "/img/icons/11.svg",
+            "text": "Aiming for long-term success through efficient, scalable, and adaptable strategies."
+        }
+    ]
+}
