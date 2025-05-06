@@ -12,7 +12,7 @@ tags:
     - Culture
     - tourism
 
-author: Minura Peries
+author: Minura Peiris
 short: Journey through Sri Lanka's history ancient cities, legendary temples, and colonial legacy that shape today's cultural landscape. 
 
 #full details

@@ -13,7 +13,7 @@ tags:
     - Rituals
     - Pilgrimage
 
-author: Minura Peries
+author: Minura Peiris
 short: Explore the spiritual heart of Sri Lanka Buddhist temples, rituals, and pilgrimage sites that have shaped daily life for millennia. 
 
 #full details

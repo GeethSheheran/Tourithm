@@ -12,7 +12,7 @@ tags:
     - Nature
     - Wildlife
 
-author: Minura Peries 
+author: Minura Peiris 
 short: Sri Lanka packs incredible biodiversity into a small island from ancient rainforests and misty mountains to vibrant marine life. 
 
 #full details
