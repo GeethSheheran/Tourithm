@@ -64,9 +64,15 @@ const HeroOne = () => {
                                         textAlign: "center",
                                     }}
                                 >
+                                    {/* <span
+                                        className="mil-suptitle mil-light mil-upper mil-mb-0"
+                                        style={{ fontSize: "1.2rem", color: "white" }}
+                                    >
+                                        {Data.subtitle}
+                                    </span> */}
                                     <h1
                                         className="mil-upper mil-light mil-mb-30"
-                                        style={{ fontSize: "2.5rem", color: "white" }}
+                                        style={{ fontSize: "2.5rem", color: "white" , marginTop: "10%" }}
                                         dangerouslySetInnerHTML={{ __html: Data.title }}
                                     />
                                     <p
@@ -75,6 +81,24 @@ const HeroOne = () => {
                                     >
                                         EMPOWERING SRI LANKA’S TOURISM BUSINESSES TO THRIVE IN THE DIGITAL ERA!
                                     </p>
+                                    {/* <p
+                                        className="font-whit mil-mb-90"
+                                        style={{ fontSize: "1rem", color: "white" , width: "70%"}}
+                                    >
+                                        WE HELP TOURISM BRANDS GROW, ENGAGE, AND SHINE —
+                                        WITH TAILORED DIGITAL SOLUTIONS BACKED BY INDUSTRY EXPERTS,
+                                        INNOVATIVE CREATIVES, AND CUTTING-EDGE TECHNOLOGY.
+                                    </p> */}
+                                    {/* <Link
+                                        href={Data.button.link}
+                                        className="mil-link mil-light mil-upper"
+                                        style={{ fontSize: "1rem", color: "white" }}
+                                    >
+                                        {Data.button.label}{" "}
+                                        <span className="mil-arrow">
+                                            <img src="img/icons/1.svg" alt="arrow" />
+                                        </span>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>
@@ -82,15 +106,6 @@ const HeroOne = () => {
                 </div>
             </section>
             {/* banner end */}
-
-            {/* Responsive margin-top for h1 */}
-            <style jsx>{`
-                @media (min-width: 768px) {
-                    .mil-upper.mil-light.mil-mb-30 {
-                        margin-top: 0%;
-                    }
-                }
-            `}</style>
         </>
     );
 };
