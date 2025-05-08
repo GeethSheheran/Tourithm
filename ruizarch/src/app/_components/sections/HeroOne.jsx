@@ -87,7 +87,7 @@ const HeroOne = () => {
             <style jsx>{`
                 @media (min-width: 768px) {
                     .mil-upper.mil-light.mil-mb-30 {
-                        margin-top: 10%;
+                        margin-top: 0%;
                     }
                 }
             `}</style>
