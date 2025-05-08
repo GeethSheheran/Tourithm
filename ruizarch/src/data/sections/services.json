@@ -3,10 +3,10 @@
     "subtitle": "Services",
     "items": [
         {
-            "icon": "/img/icons/photo.png",
+            "icon": "/img/icons/consulting.png",
             "num": "01.",
             "title": "Consultant and Business intelligence",
-            "text": "We offer expert guidance and data insights to help tourism businesses grow smarter and stay competitive.",
+            "text": "Expert guidance and data insights for smarter, competitive growth in tourism businesses.",
             "link": "/services/service-9"
         },
         {

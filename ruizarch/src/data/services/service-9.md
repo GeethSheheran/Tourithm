@@ -2,7 +2,7 @@
 #preview details
 title: "Consultant & Business Intelligence"
 icon: "/img/icons/consulting.png"
-short: "Make smarter tourism decisions with our expert consulting and powerful business insights."
+short: "Expert guidance and data insights for smarter, competitive growth in tourism businesses."
 
 #full details
 description:
