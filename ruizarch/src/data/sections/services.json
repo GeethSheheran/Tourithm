@@ -3,60 +3,68 @@
     "subtitle": "Services",
     "items": [
         {
-            "icon": "/img/icons/web.png",
+            "icon": "/img/icons/photo.png",
             "num": "01.",
+            "title": "Consultant and Business intelligence",
+            "text": "We offer expert guidance and data insights to help tourism businesses grow smarter and stay competitive.",
+            "link": "/services/service-9"
+        },
+        {
+            "icon": "/img/icons/web.png",
+            "num": "02.",
             "title": "Web Development",
             "text": "We build fast, responsive websites that attract and convert travelers with seamless booking and language support.",
             "link": "/services/service-1"
         },
         {
             "icon": "/img/icons/smartphone.png",
-            "num": "02.",
+            "num": "03.",
             "title": "Mobile Application Development",
             "text": "Booking, planning, and exploring, tailored to your brand and easy to use on the go.",
             "link": "/services/service-2"
         },
         {
             "icon": "/img/icons/social.png",
-            "num": "03.",
+            "num": "04.",
             "title": "Social Media Management",
             "text": "Grow your audience and drive bookings with tourism-focused content and ads",
             "link": "/services/service-3"
         },
         {
             "icon": "/img/icons/content.png",
-            "num": "04.",
+            "num": "05.",
             "title": "Content Writing",
             "text": "Create SEO content that tells your story, builds trust, and drives traffic through blogs, guides, emails, and more.",
             "link": "/services/service-4"
         },
         {
             "icon": "/img/icons/design.png",
-            "num": "05.",
+            "num": "06.",
             "title": "Design & Branding",
             "text": "Create impactful logos, brochures, and graphics that reflect your tourism brand and build recognition.",
             "link": "/services/service-5"
         },
         {
             "icon": "/img/icons/analize.png",
-            "num": "06.",
+            "num": "07.",
             "title": "SEO & Analytics",
             "text": "Boost visibility with expert SEO for higher rankings and analytics tools to understand customer behavior and drive results.",
             "link": "/services/service-6"
         },
         {
             "icon": "/img/icons/research.png",
-            "num": "07.",
+            "num": "08.",
             "title": "Tourism Research & Campaigns",
             "text": "We use industry expertise and local insights to guide your marketing, helping you stay ahead and attract new customers.",
             "link": "/services/service-7"
         },
         {
             "icon": "/img/icons/photo.png",
-            "num": "08.",
+            "num": "09.",
             "title": "Copyrighted Stock Photos & Videos",
             "text": "Elevate your brand with high-quality Sri Lanka photos and videos, perfect for all your promotions.",
             "link": "/services/service-8"
         }
+        
     ]
 }

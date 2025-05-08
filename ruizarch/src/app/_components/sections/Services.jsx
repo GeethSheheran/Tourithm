@@ -2,7 +2,7 @@ import Data from "@data/sections/services.json";
 import Link from "next/link";
 
 const ServicesSection = () => {
-  return (
+  return ( 
     <> 
         {/* services */}
         <section className="mil-soft-bg mil-relative">
