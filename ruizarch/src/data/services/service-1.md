@@ -1,28 +1,27 @@
 ---
 #preview details
-title: "Web Development"
-icon: "/img/icons/web.png"
-short: "We build fast, responsive websites that attract and convert travelers with seamless booking and language support."
+title: "Consultant & Business Intelligence"
+icon: "/img/icons/consulting.png"
+short: "Expert guidance and data insights for smarter, competitive growth."
 
 #full details
-
 description:
   - layout: 1
     title: Description
     content:
-      <p>We design and develop modern, high-performance websites tailored specifically for tourism businesses. Our goal is not just to build beautiful websites, but to create powerful digital tools that convert visitors into paying customers. Every site we craft is mobile-optimized, SEO-friendly, and lightning-fast—ensuring an exceptional user experience across all devices. From seamless booking system integrations and multilingual support to custom features that reflect your brand’s uniqueness, we build with both the traveler and the business owner in mind. Whether you're just starting out or looking to scale, our websites help you attract more traffic, engage better with your audience, and ultimately grow your business in a competitive digital landscape.</p>
+      <p>We offer round-the-clock consulting for tourism professionals and organizations seeking continuous growth and transformation. Our expert team provides real-time support for strategic decisions, connects businesses with the right tourism associations, and guides you in modernizing associations to stay competitive. By leveraging market insights, traveler behavior data, and innovative strategies, we help you scale your business efficiently while adapting to the ever-evolving tourism industry.</p>
     divider: true
 
   - layout: 2
     title: Benefits
     content:
-      <p>Our web development service empowers your tourism business with a strong digital presence that attracts, engages, and converts travelers. By combining strategy, design, and technology, we create websites that enhance your brand credibility and drive real growth. The result is a platform that not only looks great but works hard in the background—bringing in more customers, improving user experience, and positioning your business for long-term success.</p>
+      <p>Our 24/7 availability ensures that you can access timely insights and solutions whenever you need them. Whether you want to connect with the right tourism associations, transform your existing association, or optimize your business operations, our team is always ready to help. We assist in identifying new opportunities, reducing risks, and ensuring your tourism business stays ahead of the curve in an increasingly competitive environment.</p>
     list:
-      - More Direct Bookings
-      - Higher Visibility Through SEO
-      - Reach a Global Audience
-      - Fast Performance
-      - Brand Credibility
+      - Real-Time Consulting & Problem-Solving
+      - Connection with Relevant Tourism Associations
+      - Transformation & Modernization 
+      - Data-Driven Decision Making & Insights
+      - Strategic Growth & Long-Term Planning
     divider: false
 
 sidebar:
@@ -31,44 +30,45 @@ sidebar:
     - layout: list
       title: Master Planning
       content:
-        - Strategic Vision
-        - Tailored Solutions
-        - Scalability
+        - 24/7 Business Consultation & Strategy
+        - Facilitating Industry Connections
+        - Growth & Transformation Roadmaps
 
     - layout: list
-      title: Sustainability 
+      title: Sustainability
       content:
-        - Eco-Friendly Practices
-        - Long-Term Value
-        - Support for Green Businesses
+        - Scalable Business Models
+        - Adapting to Changing Market Trends
+        - Long-Term Development Plans
 
     - layout: list
       title: Innovation
       content:
-        - Cutting-Edge Technology
-        - Creative Design
-        - Continuous Evolution
-gallery:
-  - image: /img/covers/blogCover.jpg
-    alt: image
+        - Real-Time Industry Monitoring
+        - Technology-Driven Solutions
+        - Tourism Experience Optimization
 
+gallery:
   - image: /img/covers/serviceCover.jpg
     alt: image
 
-  - image: /img/blog/heritage.jpg
+  - image: /img/covers/concactCover.jpg
+    alt: image
+
+  - image: /img/blog/festival.jpg
     alt: image
 
 description2:
   - layout: 1
     title: Perfect Planning
     content:
-      <p>At Ceriture, we believe that every successful website starts with a solid foundation. Our planning process begins with understanding your business goals, your audience, and the unique value your tourism brand offers. This discovery phase allows us to define clear project objectives, identify technical and content needs, and outline the user journey from the first visit to conversion. With this structured approach, we minimize delays, avoid confusion, and ensure the final outcome is aligned with your vision and business strategy.</p>
+      <p>We work with you to define your strategic goals and ensure your tourism association or business is aligned with current market needs. Our team helps you develop tailored plans to connect with the right industry partners, adopt effective business strategies, and modernize your operations for sustained growth and success.</p>
     divider: false
 
   - layout: 1
     title: Approach
     content:
-      <p>Our development approach is collaborative, client-focused, and results-driven. From the initial consultation to the final launch, we work closely with you to ensure each stage of the project reflects your goals and expectations. Communication is consistent, with a dedicated team member keeping you informed and involved throughout the process. After the website goes live, we continue to support your business by providing guidance, training, and maintenance options, ensuring your digital presence remains strong and effective over time.</p>
+      <p>Our approach is collaborative, flexible, and results-driven. We combine your industry knowledge with our expertise in business transformation and tourism strategy. By working closely with your team, we ensure that every decision is backed by data and designed to achieve long-term success. Whether it’s guiding your tourism association through a transformation or helping you build meaningful industry connections, we’re with you every step of the way.</p>
     divider: true
 
 sidebar2:
@@ -76,36 +76,18 @@ sidebar2:
     - layout: list
       title: Capabilities
       content:
-        - Custom Website Development
-        - Booking System Integration
-        - Multilingual Website Solutions
-        - Search Engine Optimization (SEO)
-        - Responsive and Mobile-Optimized Design
+        - 24/7 Business Consulting & Advisory
+        - Tourism Association Partnerships & Networking
+        - Transformation Strategies for Associations
+        - Real-Time Market & Industry Insights
+        - Crisis Management & Rapid Response Solutions
 
     - layout: list
       title: Work Process
       content:
-        - "Discovery and Research"
-        - "Planning and Strategy"
-        - "Design and Development"
-        - "Testing and Launch"
+        - Immediate Business Assessment & Consultation
+        - Connecting with Relevant Tourism Associations
+        - Developing Growth & Transformation Plans
+        - Ongoing Support & Performance Monitoring
 
-faq:
-  subtitle: Have Some Questions?
-  title: We Can Help!
-  button:
-    label: More Questions?
-    link: /contact
-  items:
-    - label: General information
-      content: <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-    - label: Management of personal data
-      content: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-    - label: Does Ruizarch accept article submissions?
-      content: <p>Netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-    - label: What is the Ruizarch insights app?
-      content: <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 ---

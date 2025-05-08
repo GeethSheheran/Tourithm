@@ -1,27 +1,27 @@
 ---
 #preview details
-title: "SEO & Analytics"
-icon: "/img/icons/analize.png"
-short: "Boost visibility with expert SEO for higher rankings and analytics tools to understand customer behavior and drive results."
+title: "Design & Branding"
+icon: "/img/icons/design.png"
+short: "Create impactful logos, brochures, and graphics that reflect your tourism brand and build recognition."
 
 #full details
 description:
   - layout: 1
     title: Description
     content:
-      <p>We optimize your tourism website for search engines and track key performance data to drive meaningful growth. Our SEO strategies are designed specifically for travel and hospitality businesses, ensuring your content ranks higher and reaches the right audience at the right time. From technical SEO and keyword research to on-page optimization and content improvements, we make sure your site performs well on all fronts. We also implement analytics tools that monitor visitor behavior, conversion rates, and traffic sources, giving you clear insights into what’s working and where to improve. With our guidance, your business becomes more discoverable, data-informed, and equipped to make smart marketing decisions.</p>
+      <p>We help tourism businesses create powerful visual identities that resonate with travelers and reflect their unique story. From logos and color palettes to marketing materials and brand guidelines, our design and branding services are built to establish recognition and trust. We translate your values, mission, and customer experience into a consistent brand image across digital and print platforms. Whether you're launching a new venture or refreshing your look, our design process blends strategy with creativity to build a visual identity that is not only attractive, but also meaningful, adaptable, and aligned with your growth goals.</p>
     divider: true
 
   - layout: 2
     title: Benefits
     content:
-      <p>Our SEO and analytics service enhances your visibility online and helps you understand how travelers interact with your website. By combining strategic optimization with performance tracking, we support ongoing improvements that lead to more traffic, better engagement, and higher conversion rates. With reliable data and expert recommendations, you gain the clarity needed to grow your presence in a competitive digital space.</p>
+      <p>Our design and branding service ensures that your tourism business stands out in a crowded market. A well-crafted brand builds trust, creates emotional connections, and leaves a lasting impression on travelers. With a strong visual identity in place, you gain the tools to confidently market your services, attract the right audience, and grow with consistency and clarity.</p>
     list:
-      - Higher Search Engine Rankings
-      - More Organic Website Traffic
-      - Data-Driven Marketing Decisions
-      - Increased User Engagement
-      - Long-Term SEO Growth
+      - Memorable Brand Identity
+      - Professional and Consistent Look
+      - Increased Trust and Credibility
+      - Better Marketing Impact
+      - Competitive Differentiation
     divider: false
 
 sidebar:
@@ -30,45 +30,45 @@ sidebar:
     - layout: list
       title: Master Planning
       content:
-        - SEO Strategy Aligned with Business Goals
-        - Keyword Targeting Roadmap
-        - Traffic and Engagement Forecasting
+        - Brand Strategy Development
+        - Visual Identity Planning
+        - Scalable Design Systems
 
     - layout: list
       title: Sustainability 
       content:
-        - Long-Term Search Engine Visibility
-        - Ethical SEO Best Practices
-        - Continuous Monitoring and Optimization
+        - Long-Lasting Brand Guidelines
+        - Adaptable Visual Elements
+        - Meaningful, Authentic Storytelling
 
     - layout: list
       title: Innovation
       content:
-        - AI-Driven SEO Tools
-        - Predictive Analytics Integration
-        - Smart Reporting Dashboards
+        - Trend-Aware Design Techniques
+        - Digital and Print Adaptability
+        - Creative Concept Exploration
 
 gallery:
+  - image: /img/covers/faq.jpg
+    alt: image
+
   - image: /img/covers/projectCover.jpg
     alt: image
 
-  - image: /img/covers/serviceCover.jpg
-    alt: image
-
-  - image: /img/blog/hotspot.jpg
+  - image: /img/blog/buddha.jpg
     alt: image
 
 description2:
   - layout: 1
     title: Perfect Planning
     content:
-      <p>We begin by assessing your current digital presence and identifying opportunities through in-depth keyword research and competitor analysis. From there, we develop a tailored SEO and analytics plan that aligns with your content strategy, business objectives, and ideal traveler profiles. Our planning ensures your efforts are focused and measurable from day one.</p>
+      <p>We begin by understanding your business values, audience preferences, and destination highlights to create a brand strategy that fits your long-term vision. Our planning process includes visual research, brand positioning, and mood board development to guide a unified, purposeful design direction from day one.</p>
     divider: false
 
   - layout: 1
     title: Approach
     content:
-      <p>Our approach combines technical expertise with a data-focused mindset. We implement SEO improvements, track detailed performance metrics, and adjust strategies based on real-time results. Whether you're starting fresh or optimizing an existing site, we guide you through every step—from setup and implementation to reporting and long-term analysis—so you can make confident, informed decisions about your digital growth.</p>
+      <p>Our approach to design and branding is collaborative and thoughtful. We work closely with your team to refine visual concepts, deliver brand elements that reflect your personality, and create a complete brand kit ready for use across all platforms. Each phase includes revisions and feedback loops to ensure your final identity is both professional and uniquely yours.</p>
     divider: true
 
 sidebar2:
@@ -76,18 +76,18 @@ sidebar2:
     - layout: list
       title: Capabilities
       content:
-        - On-Page and Technical SEO
-        - Keyword Research and Strategy
-        - Performance Analytics and Reporting
-        - Google Search Console and GA4 Setup
-        - SEO Copy Review and Recommendations
+        - Logo and Identity Design
+        - Brand Guideline Development
+        - Marketing Collateral Design
+        - Social Media Branding
+        - Website and UI Design Elements
 
     - layout: list
       title: Work Process
       content:
-        - SEO Audit and Keyword Research
-        - Strategy Development and Setup
-        - Implementation and Optimization
-        - Reporting, Analysis, and Adjustments
+        - Brand Discovery and Research
+        - Concept and Visual Development
+        - Design Refinement and Approval
+        - Delivery of Brand Assets and Guidelines
 
 ---

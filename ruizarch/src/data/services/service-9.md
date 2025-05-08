@@ -1,27 +1,27 @@
 ---
 #preview details
-title: "Consultant & Business Intelligence"
-icon: "/img/icons/consulting.png"
-short: "Expert guidance and data insights for smarter, competitive growth."
+title: "Copyrighted Stock Photos & Videos"
+icon: "/img/icons/photo.png"
+short: "Elevate your brand with high-quality Sri Lanka photos and videos, perfect for all your promotions."
 
 #full details
 description:
   - layout: 1
     title: Description
     content:
-      <p>We offer round-the-clock consulting for tourism professionals and organizations seeking continuous growth and transformation. Our expert team provides real-time support for strategic decisions, connects businesses with the right tourism associations, and guides you in modernizing associations to stay competitive. By leveraging market insights, traveler behavior data, and innovative strategies, we help you scale your business efficiently while adapting to the ever-evolving tourism industry.</p>
+      <p>We offer professionally captured, licensed photo and video content tailored for the tourism industry. Through our creative collaboration with Ibex Films, we deliver stunning visuals that showcase destinations, accommodations, experiences, and culture in their best light. Our curated media libraries include high-resolution images and cinematic footage that are ready to be used across websites, social media, ads, and brochures. These assets are crafted to evoke emotion, inspire travel, and align with your brand story—ensuring you stand out in a competitive market while remaining legally protected and visually consistent.</p>
     divider: true
 
   - layout: 2
     title: Benefits
     content:
-      <p>Our 24/7 availability ensures that you can access timely insights and solutions whenever you need them. Whether you want to connect with the right tourism associations, transform your existing association, or optimize your business operations, our team is always ready to help. We assist in identifying new opportunities, reducing risks, and ensuring your tourism business stays ahead of the curve in an increasingly competitive environment.</p>
+      <p>Our copyrighted stock media service gives you a powerful visual edge. By using authentic, high-quality content from trusted professionals, you can elevate your marketing materials, strengthen your brand image, and engage travelers more effectively. With licensing and copyright management handled for you, you can focus on growth without worrying about legal or quality issues.</p>
     list:
-      - Real-Time Consulting & Problem-Solving
-      - Connection with Relevant Tourism Associations
-      - Transformation & Modernization of Tourism Associations
-      - Data-Driven Decision Making & Insights
-      - Strategic Growth & Long-Term Planning
+      - High-Quality Tourism Visuals
+      - Full Licensing and Copyright Assurance
+      - Brand-Consistent Media Assets
+      - Boosted Engagement and Storytelling
+      - Time and Cost Savings on Production
     divider: false
 
 sidebar:
@@ -30,23 +30,23 @@ sidebar:
     - layout: list
       title: Master Planning
       content:
-        - 24/7 Business Consultation & Strategy
-        - Facilitating Industry Connections
-        - Growth & Transformation Roadmaps
+        - Visual Strategy Development
+        - Shot List Planning for Tourism Themes
+        - Asset Categorization for Easy Reuse
 
     - layout: list
-      title: Sustainability
+      title: Sustainability 
       content:
-        - Scalable Business Models
-        - Adapting to Changing Market Trends
-        - Long-Term Development Plans
+        - Reusable Content Libraries
+        - Minimal Environmental Impact in Shoots
+        - Long-Term Visual Relevance
 
     - layout: list
       title: Innovation
       content:
-        - Real-Time Industry Monitoring
-        - Technology-Driven Solutions
-        - Tourism Experience Optimization
+        - Cinematic Drone Footage and Timelapse
+        - Creative Tourism Storyboarding
+        - Post-Production Editing and Color Grading
 
 gallery:
   - image: /img/covers/serviceCover.jpg
@@ -62,13 +62,13 @@ description2:
   - layout: 1
     title: Perfect Planning
     content:
-      <p>We work with you to define your strategic goals and ensure your tourism association or business is aligned with current market needs. Our team helps you develop tailored plans to connect with the right industry partners, adopt effective business strategies, and modernize your operations for sustained growth and success.</p>
+      <p>We begin by identifying your visual needs—what destinations, services, or experiences you want to highlight. Working closely with Ibex Films, we align your brand voice with a tailored visual strategy and select or produce content that captures the emotion and essence of your offering. This ensures consistency, relevance, and maximum impact across your marketing channels.</p>
     divider: false
 
   - layout: 1
     title: Approach
     content:
-      <p>Our approach is collaborative, flexible, and results-driven. We combine your industry knowledge with our expertise in business transformation and tourism strategy. By working closely with your team, we ensure that every decision is backed by data and designed to achieve long-term success. Whether it’s guiding your tourism association through a transformation or helping you build meaningful industry connections, we’re with you every step of the way.</p>
+      <p>Our approach centers on collaboration, creativity, and compliance. With a library of pre-shot visuals and custom options available, we provide the flexibility to meet both your budget and goals. Every image or video is reviewed for quality, edited professionally, and licensed properly. We keep the process smooth and efficient—so you get stunning visuals that are ready to use and built to last.</p>
     divider: true
 
 sidebar2:
@@ -76,18 +76,18 @@ sidebar2:
     - layout: list
       title: Capabilities
       content:
-        - 24/7 Business Consulting & Advisory
-        - Tourism Association Partnerships & Networking
-        - Transformation Strategies for Associations
-        - Real-Time Market & Industry Insights
-        - Crisis Management & Rapid Response Solutions
+        - Licensed Stock Photos and Videos
+        - Custom Visual Production via Ibex Films
+        - Tourism-Specific Media Libraries
+        - Creative Visual Direction and Styling
+        - Legal Licensing and Usage Support
 
     - layout: list
       title: Work Process
       content:
-        - Immediate Business Assessment & Consultation
-        - Connecting with Relevant Tourism Associations
-        - Developing Growth & Transformation Plans
-        - Ongoing Support & Performance Monitoring
+        - Visual Requirements Discovery
+        - Asset Selection or Custom Filming
+        - Editing, Licensing, and Finalization
+        - Delivery and Media Management
 
 ---
