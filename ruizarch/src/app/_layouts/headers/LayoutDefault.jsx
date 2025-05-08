@@ -49,12 +49,12 @@ const DefaultHeader = () => {
                     >
                       <Link
                         href={item.link}
-                        onClick={item.children && item.children.length > 0 ? (e) => handleSubMenuClick(index, e) : null}
+                        onClick={item.children > 0 ? (e) => handleSubMenuClick(index, e) : null}
                         className="hover:text-gray-300"
                       >
                         {item.label}
                       </Link>
-                      {item.children && item.children.length > 0 && (
+                      {item.children > 0 && (
                         <ul
                           className={`md:absolute md:bg-gray-700 md:rounded md:shadow-lg md:mt-2 ${
                             activeSubMenu === index ? "mil-active block" : "hidden"
@@ -83,18 +83,14 @@ const DefaultHeader = () => {
             {/* Right buttons */}
             <div className="mil-top-panel-buttons flex items-center space-x-4">
               <Link href="/contact" className="mil-button mil-sm bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
-                Get Expert Help
+              Get Expert Help
               </Link>
 
               <div
                 className={`mil-menu-btn ${toggle ? "mil-active" : ""} md:hidden cursor-pointer`}
                 onClick={() => setToggle(!toggle)}
               >
-                <div className="mil-hamburger">
-                  <span className="mil-bar mil-bar1"></span>
-                  <span className="mil-bar mil-bar2"></span>
-                  <span className="mil-bar mil-bar3"></span>
-                </div>
+                <span className="block w-6 h-0.5 bg-white mb-1"></span>
               </div>
             </div>
             {/* right buttons end */}
@@ -102,67 +98,6 @@ const DefaultHeader = () => {
         </div>
       </div>
       {/* top bar end */}
-
-      {/* Inline CSS for hamburger menu */}
-      <style jsx>{`
-        .mil-hamburger {
-          width: 24px;
-          height: 18px;
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          cursor: pointer;
-        }
-
-        .mil-bar {
-          display: block;
-          width: 100%;
-          height: 2px;
-          background-color: white;
-          transition: all 0.3s ease;
-        }
-
-        .mil-menu-btn.mil-active .mil-bar1 {
-          transform: rotate(45deg) translate(5px, 5px);
-        }
-
-        .mil-menu-btn.mil-active .mil-bar2 {
-          opacity: 0;
-        }
-
-        .mil-menu-btn.mil-active .mil-bar3 {
-          transform: rotate(-45deg) translate(7px, -7px);
-        }
-
-        .mil-navigation {
-          display: none;
-        }
-
-        .mil-navigation.mil-active {
-          display: block;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          right: 0;
-          background: #1f2937;
-          padding: 20px;
-          z-index: 10;
-        }
-
-        @media (min-width: 768px) {
-          .mil-navigation {
-            display: block;
-            position: static;
-            background: none;
-            padding: 0;
-          }
-
-          .mil-menu-btn {
-            display: none;
-          }
-        }
-      `}</style>
     </>
   );
 };
