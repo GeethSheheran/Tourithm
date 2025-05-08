@@ -1,6 +1,6 @@
 import React from "react";
 
-import AppData from "@data/app.json";
+import AppData from "@data/app.json"; 
 
 import Timer from "@layouts/timer/Index";
 
