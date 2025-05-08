@@ -39,14 +39,14 @@ async function Blog() {
                       <PopularPosts posts={populars} />
 
                       {/* filter */}
-                      <div className="mil-filter mil-up mil-mb-90">
+                      {/* <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
                               <Link href="/blog" className="mil-current">All</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
                               ))}
                           </div>
-                      </div>
+                      </div> */}
                       {/* filter end */}
                       
                       <PaginatedBlog
