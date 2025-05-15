@@ -46,7 +46,6 @@ sidebar:
       content:
         - Storytelling Techniques for Tourism
         - SEO and Keyword Optimization
-        - Integration of AI Writing Tools with Human Editing
 
 gallery:
   - image: /img/covers/serviceCover.jpg
