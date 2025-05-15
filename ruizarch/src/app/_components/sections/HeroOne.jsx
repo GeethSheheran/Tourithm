@@ -79,7 +79,7 @@ const HeroOne = () => {
                                         className="font-white mil-mb-30 font-bold"
                                         style={{ fontSize: "1.2rem", color: "white" }}
                                     >
-                                        EMPOWERING SRI LANKA’S TOURISM BUSINESSES TO THRIVE IN THE DIGITAL ERA!
+                                        Empowering Tourism Through Technology.
                                     </p>
                                     {/* <p
                                         className="font-whit mil-mb-90"
