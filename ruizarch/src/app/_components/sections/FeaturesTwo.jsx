@@ -5,7 +5,7 @@ const FeaturesTwoSection = () => {
     <>
         {/* features two */}
         <section className="mil-soft-bg mil-relative">
-            <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
+            <img src="/img/photo/bg.svg" className="mil-bg-img" alt="image" />
 
             <div className="container mil-p-120-60">
                 <div className="mil-background-grid mil-softened" />
