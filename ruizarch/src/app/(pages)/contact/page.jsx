@@ -55,7 +55,7 @@ const Contact = () => {
                                 </ul>
                                 <h6 className="mil-upper mil-up mil-mb-30">Email</h6>
                                 <ul className="mil-list mil-dark mil-up">
-                                    <li>info@ceriture.com</li>
+                                    <li>info@tourithm.lk</li>
                                     <li>tourithm.tech@gmail.com</li>
                                 </ul>
                                 
