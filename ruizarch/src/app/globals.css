@@ -8,6 +8,7 @@ img.mfp-img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .mfp-img-container .mfp-close {
     top: -110px;
     right: -24px;
@@ -20,6 +21,13 @@ img.mfp-img {
 
 @import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Sansation", sans-serif;
-  }
+
+    font-style: normal;
+}
