@@ -29,7 +29,7 @@ const Contact = () => {
 
                         <div className="mil-mb-90">
                             <h2 className="mil-upper mil-up mil-mb-30">Info Contact</h2>
-                            <p className="mil-up mil-mb-40">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters.</p>
+                            <p className="mil-up mil-mb-40">We offer professional support and tailored solutions to help you grow and strengthen your brand. Our team is ready to assist with everything you need to move forward with confidence.</p>
                         </div>
 
                     </div>
@@ -116,7 +116,7 @@ const Contact = () => {
                             <h2 className="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
                             <p className="mil-up mil-mb-30">Have a question? We’d love to hear from you. Send us a note to get the conversation started - or click on an office above and talk to us. Especially about designing something, or something we’ve designed.</p>
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
-                            <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
+                            <p className="mil-up mil-mb-30">Only two projects are accepted at a time. Would you like yours to be one?</p>
                             <div className="mil-up">
                                 <Link href="/contact" className="mil-link mil-upper">Join Us <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                             </div>

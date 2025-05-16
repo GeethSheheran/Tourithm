@@ -9,7 +9,7 @@ description:
   - layout: 1
     title: Description
     content:
-      <p>We offer professionally captured, licensed photo and video content tailored for the tourism industry. Through our creative collaboration with Ibex Films, we deliver stunning visuals that showcase destinations, accommodations, experiences, and culture in their best light. Our curated media libraries include high-resolution images and cinematic footage that are ready to be used across websites, social media, ads, and brochures. These assets are crafted to evoke emotion, inspire travel, and align with your brand story—ensuring you stand out in a competitive market while remaining legally protected and visually consistent.</p>
+      <p>We offer professionally captured, licensed photo and video content tailored for the tourism industry. We deliver stunning visuals that showcase destinations, accommodations, experiences, and culture in their best light. Our curated media libraries include high-resolution images and cinematic footage that are ready to be used across websites, social media, ads, and brochures. These assets are crafted to evoke emotion, inspire travel, and align with your brand story—ensuring you stand out in a competitive market while remaining legally protected and visually consistent.</p>
     divider: true
 
   - layout: 2
@@ -62,7 +62,7 @@ description2:
   - layout: 1
     title: Perfect Planning
     content:
-      <p>We begin by identifying your visual needs—what destinations, services, or experiences you want to highlight. Working closely with Ibex Films, we align your brand voice with a tailored visual strategy and select or produce content that captures the emotion and essence of your offering. This ensures consistency, relevance, and maximum impact across your marketing channels.</p>
+      <p>We begin by identifying your visual needs—what destinations, services, or experiences you want to highlight. We align your brand voice with a tailored visual strategy and select or produce content that captures the emotion and essence of your offering. This ensures consistency, relevance, and maximum impact across your marketing channels.</p>
     divider: false
 
   - layout: 1
@@ -77,7 +77,7 @@ sidebar2:
       title: Capabilities
       content:
         - Licensed Stock Photos and Videos
-        - Custom Visual Production via Ibex Films
+        - Custom Visual Production
         - Tourism-Specific Media Libraries
         - Creative Visual Direction and Styling
         - Legal Licensing and Usage Support

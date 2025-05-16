@@ -62,7 +62,7 @@ description2:
   - layout: 1
     title: Perfect Planning
     content:
-      <p>At Ceriture, we believe that every successful website starts with a solid foundation. Our planning process begins with understanding your business goals, your audience, and the unique value your tourism brand offers. This discovery phase allows us to define clear project objectives, identify technical and content needs, and outline the user journey from the first visit to conversion. With this structured approach, we minimize delays, avoid confusion, and ensure the final outcome is aligned with your vision and business strategy.</p>
+      <p>We believe that every successful website starts with a solid foundation. Our planning process begins with understanding your business goals, your audience, and the unique value your tourism brand offers. This discovery phase allows us to define clear project objectives, identify technical and content needs, and outline the user journey from the first visit to conversion. With this structured approach, we minimize delays, avoid confusion, and ensure the final outcome is aligned with your vision and business strategy.</p>
     divider: false
 
   - layout: 1
