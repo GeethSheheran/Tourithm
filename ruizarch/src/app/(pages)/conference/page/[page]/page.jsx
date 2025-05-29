@@ -1,9 +1,11 @@
-import Paginatedblog from '@components/Paginatedblog';
+
 import Pagination from '@components/Pagination';
 
 import Link from "next/link";
 import { redirect } from 'next/navigation'
 import { notFound } from 'next/navigation';
+import Paginatedblog from "@/src/app/_components/PaginatedBlog";
+
 
 import AppData from "@data/app.json";
  

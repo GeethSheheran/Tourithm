@@ -1,5 +1,6 @@
-import Paginatedblog from '@components/Paginatedblog';
+
 import Pagination from '@components/Pagination';
+import Paginatedblog from "@/src/app/_components/PaginatedBlog";
 
 import Link from "next/link";
  

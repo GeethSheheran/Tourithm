@@ -2,13 +2,13 @@ import Link from "next/link";
 
 import PageBanner from "@components/PageBanner";
 import Sidebar from "@components/Sidebar";
-import Paginatedblog from '@components/Paginatedblog';
 
 import { notFound } from 'next/navigation';
 
 import { getSortedCategoriesData } from "@library/categories";
 import { getAllAuthorsIds, getAuthorData } from "@library/authors";
 import { getAuthorPosts } from "@library/posts";
+import Paginatedblog from "@/src/app/_components/PaginatedBlog";
 
 export async function generateMetadata({ params }) {
   const authorData = await getSingleAuthorData(params);

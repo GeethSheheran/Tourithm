@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import PageBanner from "@components/PageBanner";
 import Sidebar from "@components/Sidebar";
-import Paginatedblog from '@components/Paginatedblog';
+import Paginatedblog from "@/src/app/_components/PaginatedBlog";
 
 import { notFound } from 'next/navigation';
 
