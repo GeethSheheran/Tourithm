@@ -2,7 +2,7 @@
     "title": "Architecture Awards",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum gravida.",
     "button": {
-        "link": "/blog",
+        "link": "/conference",
         "label": "See All"
     },
     "image": {

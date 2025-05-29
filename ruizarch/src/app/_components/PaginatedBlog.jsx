@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Date from '@library/date';
 
-const PaginatedBlogPosts = ({ items }) => {
+const PaginatedblogPosts = ({ items }) => {
   return (
     <>
       {items.map((item, index) => (
-      <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60" key={`blog-post-${index}`}>
+      <Link href={`/conference/${item.id}`} className="mil-blog-card mil-mb-60" key={`${index}`}>
           <div className="mil-cover mil-square mil-up">
               <img src={item.image} alt={item.title} />
               <div className="mil-date"><Date dateString={item.date} /></div>
@@ -21,5 +21,5 @@ const PaginatedBlogPosts = ({ items }) => {
     </>
   );
 };
-export default PaginatedBlogPosts;
+export default PaginatedblogPosts;
   

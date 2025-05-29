@@ -15,6 +15,7 @@ import LatestProjectsSection from "@components/sections/LatestProjects";
 import HowWeWorkSection from "@components/sections/HowWeWork";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
+import Confirence from "../_components/sections/Conference";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
@@ -42,9 +43,10 @@ async function Home1() {
         <LatestProjectsSection projects={projects} />
       </Suspense> */}
       <HowWeWorkSection />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Confirence/>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSection posts={posts} />
-      </Suspense>
+      </Suspense> */}
       <CoresSection />
     </>
   );

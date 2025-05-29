@@ -1,8 +1,8 @@
 {
-    "title": "Ideas and News",
+    "title": "News and Updates",
     "subtitle": "Insights",
     "button": {
-        "link": "/blog",
+        "link": "/news",
         "button": "View all"
     },
     "numOfItems": 2

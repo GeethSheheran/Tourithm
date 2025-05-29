@@ -1,0 +1,36 @@
+{
+    "title": "Premier Tourism Industry Conference",
+    "subtitle": "Uniting Visionaries to Redefine the Future of Tourism",
+    "items": [
+        {
+            "title": "University & Research Integration",
+            "icon": "/img/icons/7.svg",
+            "text": "Engage with professors and tourism researchers as they unveil cutting-edge studies and present future-ready tourism models rooted in real data and global trends.",
+            "expert": "Academics Lectures, researchers & business leaders"
+        },
+        {
+            "title": "Tourism Business Clinics",
+            "icon": "/img/icons/8.svg",
+            "text": "Participate in one-on-one strategy clinics where top consultants and tourism experts evaluate your business and offer actionable insights for growth, positioning, and innovation.",
+            "expert": "Tourism startups & entrepreneurs"
+        },
+        {
+            "title": "Investor Roundtable",
+            "icon": "/img/icons/8.svg",
+            "text": "Gain entry into private investor networking sessions. Pitch your business to domestic and international investors actively looking for opportunities in the tourism and hospitality space.",
+            "expert": "Travel & hospitality businesses & startups"
+        },
+        {
+            "title": "Policy & Innovation Dialogue",
+            "icon": "/img/icons/8.svg",
+            "text": "Join live dialogues with Ministry of Tourism officials, policy architects, and smart-city developers to explore how tourism can align with national development and digital transformation goals.",
+            "expert": "Government & tourism policy planners"
+        },
+        {
+            "title": "Tourism Lab: The Future of Experience",
+            "icon": "/img/icons/9.svg",
+            "text": "Co-create the next wave of tourism with designers, technologists, and academics. This interactive innovation session focuses on building experiential travel offerings for Gen Z and millennial travelers.",
+            "expert": "Designers, tech innovators & experience creators"
+        }
+    ]
+}

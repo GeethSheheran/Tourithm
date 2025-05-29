@@ -5,7 +5,7 @@ import Date from '@library/date';
 
 import { useSearchParams } from 'next/navigation'
 
-async function FilteredBlogPosts( { posts } ) {
+async function FilteredblogPosts( { posts } ) {
     const searchParams = useSearchParams()
     const query = searchParams.get('key')
 
@@ -28,7 +28,7 @@ async function FilteredBlogPosts( { posts } ) {
             { searchResults.length > 0 &&
                 <>
                     {searchResults.map((item, index) => (
-                    <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60" key={`blog-post-${index}`}>
+                    <Link href={`/conference/${item.id}`} className="mil-blog-card mil-mb-60" key={`blog-post-${index}`}>
                         <div className="mil-cover mil-square mil-up">
                             <img src={item.image} alt={item.title} />
                             <div className="mil-date"><Date dateString={item.date} /></div>
@@ -46,4 +46,4 @@ async function FilteredBlogPosts( { posts } ) {
         </>
     );
 };
-export default FilteredBlogPosts;
+export default FilteredblogPosts;

@@ -62,16 +62,16 @@
                 ]
             },
             {
-                "label": "Blog",
-                "link": "/blog",
+                "label": "conference",
+                "link": "/conference",
                 "children": [
                     {
-                        "label": "Blog list",
-                        "link": "/blog"
+                        "label": "blog list",
+                        "link": "/conference"
                     },
                     {
                         "label": "Publication",
-                        "link": "/blog/the-infrastructure-that-powers-the-world"
+                        "link": "/conference/the-infrastructure-that-powers-the-world"
                     }
                 ]
             },
@@ -134,31 +134,31 @@
                 "link": "/projects"
             },
             {
-                "label": "Blog",
-                "link": "/blog"
+                "label": "conference",
+                "link": "/conference"
             },
             {
                 "label": "Contact",
                 "link": "/contact"
+            },
+            {
+                "label": "Tourithm AI",
+                "link": "/ai"
             }
         ]
     },
     "social": [
         {
-            "link": "https://facebook.com",
+            "link": "https://www.facebook.com/profile.php?id=61576141568267#",
             "title": "Facebook"
         },
         {
-            "link": "https://twitter.com",
+            "link": "https://x.com/TourithmT17199",
             "title": "Twitter"
         },
         {
             "link": "https://instagram.com",
             "title": "Instagram"
-        },
-        {
-            "link": "https://youtube.com",
-            "title": "Youtube"
         }
     ],
     "projects": {

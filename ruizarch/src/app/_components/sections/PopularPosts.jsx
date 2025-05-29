@@ -8,7 +8,7 @@ const PopularPostsSection = ( { posts } ) => {
         <>
             {/* popular */}
             {posts.slice(0, Data.numOfItems).map((item, key) => (
-            <Link href={`/blog/${item.id}`} key={`blog-popular-${key}`} className="mil-blog-card mil-lg-card mil-mb-60">
+            <Link href={`/news/${item.id}`} key={`blog-popular-${key}`} className="mil-blog-card mil-lg-card mil-mb-60">
                 <div className="mil-cover mil-long mil-up">
                     <img src={item.image} alt={item.title} />
                     <div className="mil-date"><Date dateString={item.date} /></div>

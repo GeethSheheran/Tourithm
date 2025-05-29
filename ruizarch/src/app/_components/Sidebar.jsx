@@ -21,26 +21,29 @@ async function Sidebar() {
     <>
         {/* sidebar */}
         <div className="mil-sidebar-frame">
-            <h6 className="mil-upper mil-up mil-mb-30">Media Info</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">Contact Info</h6>
 
             <ul className="mil-list mil-dark mil-up mil-mb-30">
-                <li className="mil-text-sm">info@ceriture.com</li>
+                <li className="mil-text-sm">info@tourithm.lk</li>
+                <li className="mil-text-sm">+94 76 567 1421</li>
+                <li className="mil-text-sm">+94 76 219 6201</li>
+                <li className="mil-text-sm">+94 70 255 0435</li>
                 {/* <li className="mil-text-sm">authors@ruizarch.com</li> */}
             </ul>
 
-            <div className="mil-divider-lg mil-up mil-mb-30"></div>
+            {/* <div className="mil-divider-lg mil-up mil-mb-30"></div> */}
 
-            <Suspense fallback={<div>Loading...</div>}>
+            {/* <Suspense fallback={<div>Loading...</div>}>
                 <SearchBarModule />
-            </Suspense>
+            </Suspense> */}
             
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
-            <h6 className="mil-upper mil-up mil-mb-30">Recent Posts</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">Recent Updates</h6>
             <ul className="mil-list mil-list-type-2 mil-dark mil-up mil-mb-30">
                 {posts.slice(0, 4).map((item, key) => (
                 <li key={`sidebar-posts-item-${key}`}>
-                    <div className="mil-text-sm mil-mb-10"><Link href={`/blog/${item.id}`}>{item.title}</Link></div>
+                    <div className="mil-text-sm mil-mb-10"><Link href={`/conference/${item.id}`}>{item.title}</Link></div>
                     <div className="mil-additional-text mil-text-xs mil-upper mil-mb-15"><Date dateString={item.date} /></div>
                 </li>
                 ))}
@@ -58,17 +61,17 @@ async function Sidebar() {
                 ))}
             </ul> */}
 
-            <div className="mil-divider-lg mil-up mil-mb-30"></div>
+            {/* <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
             <h6 className="mil-upper mil-up mil-mb-30">Tags</h6>
 
             <ul className="mil-list mil-dark mil-up mil-mb-30">
                 {tags.map((item, key) => (
                 <li className="mil-text-sm" key={`sidebar-tags-item-${key}`}>
-                    <Link href={`/blog/tag/${item.id}`}>{item.title}</Link>
+                    <Link href={`/news/tag/${item.id}`}>{item.title}</Link>
                 </li>
                 ))}
-            </ul>
+            </ul> */}
 
             {/* <div className="mil-divider-lg mil-up mil-mb-30"></div>
 

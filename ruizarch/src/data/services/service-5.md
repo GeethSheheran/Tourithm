@@ -76,7 +76,7 @@ sidebar2:
       title: Capabilities
       content:
         - Website Copywriting
-        - SEO Blog and Article Writing
+        - SEO blog and Article Writing
         - Destination and Tour Descriptions
         - Travel Guide and Editorial Content
         - Content Strategy and Planning

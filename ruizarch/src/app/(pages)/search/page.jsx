@@ -1,4 +1,4 @@
-import FilteredBlog from '@components/FilteredBlog';
+import Filteredblog from '@components/Filteredblog';
 
 import AppData from "@data/app.json";
 
@@ -32,7 +32,7 @@ async function Search() {
               <div className="row justify-content-between">
                   <div className="col-lg-7">
                       
-                      <FilteredBlog posts={posts} />
+                      <Filteredblog posts={posts} />
 
                   </div>
                   <div className="col-lg-5">
