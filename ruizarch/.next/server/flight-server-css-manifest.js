@@ -1,0 +1,126 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/page.jsx": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/react-modal-video/css/modal-video.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/navigation/navigation.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/pagination/pagination.min.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/layout.jsx": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/services/[id]/page.jsx": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/navigation/navigation.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/pagination/pagination.min.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/about/page.jsx": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/navigation/navigation.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/pagination/pagination.min.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/page": [],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/services/[id]/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/navigation/navigation.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/pagination/pagination.min.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/services/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/news/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/news/[id]/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(coming-soon)/coming-soon/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/about/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/navigation/navigation.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/pagination/pagination.min.css"
+    ]
+  }
+}popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/about/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/navigation/navigation.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/node_modules/swiper/modules/pagination/pagination.min.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/contact/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/ai/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/news/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/news/[id]/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ],
+    "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/(pages)/news/tag/[id]/page": [
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/scss/style.scss",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/globals.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/bootstrap-grid.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/swiper.min.css",
+      "/Users/admin/Documents/GitHub/Tourithm/ruizarch/src/app/_styles/css/plugins/magnific-popup.css"
+    ]
+  }
+}
