@@ -1,4 +1,4 @@
-import Filteredblog from '@components/Filteredblog';
+import Filteredblog from '@/src/app/_components/Filteredblog';
 
 import AppData from "@data/app.json";
 
