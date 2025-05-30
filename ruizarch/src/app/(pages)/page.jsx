@@ -39,12 +39,12 @@ async function Home1() {
       <AboutSection />
       <IdeasSection />
       <ServicesSection />
+      <Projectpirice/>
       <AdvantagesSection />
       {/* <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />
       </Suspense> */}
       <HowWeWorkSection />
-      <Projectpirice/>
       <Confirence/>
       {/* <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSection posts={posts} />

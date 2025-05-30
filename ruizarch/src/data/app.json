@@ -62,7 +62,7 @@
                 ]
             },
             {
-                "label": "conference",
+                "label": "conferences",
                 "link": "/conference",
                 "children": [
                     {

@@ -18,8 +18,20 @@ const Projectpirice = ({ bg }) => {
                             <div className="mil-center">
                                 <span className="mil-suptitle mil-upper mil-light mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
                                 <h2 className="mil-upper mil-light mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
-                                <h3 className="mil-light mil-thin mil-mb-60">June & July Offer: 50% OFF – Only Rs. 50,000</h3>
-                                <h4 className="mil-light mil-thin mil-mb-60">Ongoing Monthly Subscription<br/>Investment: Rs. 20,000/month </h4>
+                                {/* <h3 className="mil-light mil-thin mil-mb-60 " style={{ textDecoration: 'underline' }}>June & July Offer: 50% OFF – Only Rs. 50,000</h3> */}
+                                <h3
+                                    className="mil-light mil-thin mil-mb-60"
+                                    style={{
+                                        textDecoration: 'underline',
+                                        textDecorationColor: '#BCFF00',
+                                        textDecorationThickness: '2px', // adjust thickness as needed
+                                        textUnderlineOffset: '4px' // optional: to shift underline downward slightly
+                                    }}
+                                >
+                                    June & July Offer: 50% OFF – Only Rs. 50,000
+                                </h3>
+
+                                <h4 className="mil-light mil-thin mil-mb-60">Ongoing Monthly Subscription<br />Investment: Rs. 20,000/month </h4>
                                 <div className="mil-complex-actions">
                                     <Link href={Data.button.link} className="mil-button mil-up">{Data.button.label}</Link>
                                     {/* <div className="mil-phone-box">

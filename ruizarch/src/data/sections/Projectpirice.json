@@ -1,13 +1,14 @@
 {
-    "title": "First Month Setup & Strategy Investment: Rs. 100,000",
+    "title": "First Month Setup & Strategy Investment: <span style='text-decoration: line-through;'>Rs. 100,000</span>",
     "subtitle": "Business Growth Subscription Package",
     "phone": {
-        "label": "New project",
-        "value": "+94 76 567 1421"
+      "label": "New project",
+      "value": "+94 76 567 1421"
     },
     "button": {
-        "label": "get more details",
-        "link": "/package"
+      "label": "get more details",
+      "link": "/package"
     },
     "bg_image": "/img/photo/dominant_handshake.jpg"
-}
+  }
+  

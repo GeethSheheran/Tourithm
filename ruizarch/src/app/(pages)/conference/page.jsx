@@ -29,7 +29,7 @@ async function blog() {
 
   return (
     <>
-      <PageBanner pageTitle={"Insights"} breadTitle={"conference"} bgImage={"/img/covers/blogCover.jpg"} />
+      <PageBanner pageTitle={"Premier Tourism Industry Conference"} breadTitle={"conference"} bgImage={"/img/photo/conference.jpg"} />
 
       {/* blog */}
       <section>
