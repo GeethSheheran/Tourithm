@@ -1,105 +1,59 @@
-
-import Pagination from '@components/Pagination';
-import Paginatedblog from "@/src/app/_components/PaginatedBlog";
-
-import Link from "next/link";
- 
-import AppData from "@data/app.json";
-
+import Link from "next/link"; // <-- Make sure to import Link at the top
 import PageBanner from "@components/PageBanner";
 import Sidebar from "@components/Sidebar";
-import PopularPosts from "@components/sections/PopularPosts";
-
-import { getSortedCategoriesData } from "@library/categories";
-import { getPaginatedPostsData, getFeaturedPostsData } from "@library/posts";
-
-import PopularsPostsData from "@data/sections/popular-posts.json";
-
-export const metadata = {
-  title: {
-		default: "conference",
-	},
-  description: AppData.settings.siteDescription,
-}
 
 async function blog() {
-  const populars = await getAllPupulars();
-  const categories = await getAllCategories();
-  const postsData = await getAllPosts();
-
   return (
     <>
-      <PageBanner pageTitle={"Premier Tourism Industry Conference"} breadTitle={"conference"} bgImage={"/img/photo/conference.jpg"} />
+      <PageBanner
+        pageTitle={"Premier Tourism Industry Conference"}
+        breadTitle={"conference"}
+        bgImage={"/img/photo/conference.jpg"}
+      />
 
-      {/* blog */}
       <section>
-          <div className="container mil-p-120-60">
-              <div className="mil-background-grid mil-softened"></div>
-              <div className="row justify-content-between">
-                  <div className="col-lg-7">
-                      <PopularPosts posts={populars} />
-
-                      {/* filter */}
-                      {/* <div className="mil-filter mil-up mil-mb-90">
-                          <div className="mil-filter-links">
-                              <Link href="/blog" className="mil-current">All</Link>
-                              {categories.map((item, key) => (
-                              <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
-                              ))}
-                          </div>
-                      </div> */}
-                      {/* filter end */}
-                      
-                      <Paginatedblog
-                        items={postsData.posts}
-                      />
-
-                  </div>
-                  <div className="col-lg-5">
-
-                      <Sidebar />
-
-                  </div>
-              </div>
+        <div className="container mil-p-120-60">
+          <div className="mil-background-grid mil-softened"></div>
+          <div className="row justify-content-between">
+            <div className="col-lg-7">
+              {/* Insert your Link component here */}
+              <Link href="/conference/dec25" className="mil-blog-card mil-mb-60">
+                <div className="mil-cover mil-square mil-up">
+                  <img
+                    src="/img/photo/Conference Flyer.png"
+                    alt="Premier Tourism Industry Conference"
+                  />
+                </div>
+                <div className="mil-description">
+                  <span className="mil-suptitle mil-upper mil-up mil-mb-30">
+                    Conference
+                  </span>
+                  <h4 className="mil-upper mil-up mil-mb-30">
+                    Premier Tourism Industry Conference
+                  </h4>
+                  <p className="mil-up mil-mb-30">
+                    The Premier Tourism Industry Conference 2025 is an invite-only
+                    event uniting 25–30 leading tourism businesses with top experts,
+                    investors, and policymakers to drive innovation, collaboration,
+                    and growth.
+                  </p>
+                  <span className="mil-link mil-upper mil-up">
+                    Read{" "}
+                    <span className="mil-arrow">
+                      <img src="/img/icons/1.svg" alt="arrow" />
+                    </span>
+                  </span>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-5">
+              <Sidebar />
+            </div>
           </div>
+        </div>
       </section>
-      {/* blog end */}
-
-      {/* pagination */}
-      <div className="container mil-p-0-120">
-          <div className="mil-background-grid mil-softened" />
-          
-          <Pagination
-            currentPage={postsData.currentPage}
-            totalItems={postsData.totalPosts}
-            perPage={AppData.settings.perPage}
-            renderPageLink={(page) => `/conference/page/${page}`}
-          />
-      </div>
-      {/* pagination end */}
     </>
   );
-};
+}
+
 export default blog;
-
-async function getAllPupulars() {
-  const popularsData = await getFeaturedPostsData( PopularsPostsData.featured )
-
-  return popularsData
-}
-
-async function getAllCategories() {
-  const categoriesData = await getSortedCategoriesData()
-
-  return categoriesData
-}
-
-async function getAllPosts() {
-  const { posts, total } = getPaginatedPostsData( AppData.settings.perPage, 1 );
-
-  return {
-    posts: posts,
-    totalPosts: total,
-    currentPage: 1
-  }
-}

@@ -6,9 +6,6 @@ const PaginatedblogPosts = () => {
     <Link href="/conference/dec25" className="mil-blog-card mil-mb-60">
       <div className="mil-cover mil-square mil-up">
         <img src="/img/photo/Conference Flyer.png" alt="Premier Tourism Industry Conference" />
-        <div className="mil-date">
-          {/* <Date dateString="2025-05-26" /> */}
-        </div>
       </div>
       <div className="mil-description">
         <span className="mil-suptitle mil-upper mil-up mil-mb-30">Conference</span>

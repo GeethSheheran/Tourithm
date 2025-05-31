@@ -40,18 +40,18 @@ export function getSortedArchivesData() {
   const monthOptions = { month: "long" };
   const yearsOptions = { year: "numeric" };
 
-  allSortedPosts.map((item, index) => {
-    let dateObj = new Date(item.date);
+  // allSortedPosts.map((item, index) => {
+  //   let dateObj = new Date(item.date);
     
-    let itemObj = {
-        "id": (dateObj.getMonth()+1)+'-'+dateObj.getFullYear(),
-        "month": new Intl.DateTimeFormat("en-US", monthOptions).format(dateObj),
-        "year": new Intl.DateTimeFormat("en-US", yearsOptions).format(dateObj)
-    }
-    if ( !archives.some(e => e.id === itemObj.id) ){
-        archives.push(itemObj)
-    }
-  });
+  //   let itemObj = {
+  //       "id": (dateObj.getMonth()+1)+'-'+dateObj.getFullYear(),
+  //       "month": new Intl.DateTimeFormat("en-US", monthOptions).format(dateObj),
+  //       "year": new Intl.DateTimeFormat("en-US", yearsOptions).format(dateObj)
+  //   }
+  //   if ( !archives.some(e => e.id === itemObj.id) ){
+  //       archives.push(itemObj)
+  //   }
+  // });
 
   return archives
 }
