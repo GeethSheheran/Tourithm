@@ -1,245 +1,83 @@
-import { getAllPostsIds, getPostData } from "@library/posts";
-import { getAuthorData } from "@library/authors";
-
-import Date from '@library/date';
-
-import Link from "next/link";
-
-import { notFound } from 'next/navigation';
-
 import PageBannerTwo from "@components/PageBannerTwo";
 import Sidebar from "@components/Sidebar";
 
-async function PostsDetail({ params }) {
-    const postData = await getSinglePostData(params);
-    const authorData = await getSingleAuthorData(postData.author.toLowerCase().replace(' ', '-'));
+const staticPost = {
+  introTitle: `<span class="mil-accent">Premier</span> Tourism Industry Conference`,
+  image: "/img/photo/Conference Flyer.png",
+  categories: ["Conference"],
+  contentHtml: `
+    <h3><strong>Uniting Visionaries to Redefine the Future of Tourism</strong></h3><br/>
+    <p><strong>Date:</strong> December 2025<br/><strong>Location:</strong> Sri Lanka</p>
 
-    return (
-        <>
-            <PageBannerTwo title={postData.introTitle} subTitle={postData.categories[0]} bgImage={postData.image} />
+    <div style="display: flex; gap: 40px; align-items: start; justify-content: space-between; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 600px;">
+        <h3>About the Conference</h3>
+        <p>The Premier Tourism Industry Conference 2025 is a high-impact, invite-only gathering that brings together 25–30 forward-thinking tourism businesses with an elite network of university experts, investors, innovators, and policymakers.</p>
+        <p>Designed to drive collaboration, innovation, and growth, this conference is a powerful platform for shaping the future of Sri Lanka’s tourism sector—and influencing regional and global trends.</p>
+        <p>Whether you’re building a sustainable tourism model, scaling a hospitality brand, or redefining digital experiences for travelers, this is your space to connect, collaborate, and create impact.</p>
 
-            {/* blog */}
-            <section>
-                <div className="container mil-p-120-60">
-                    <div className="mil-background-grid mil-softened" />
+        <h4>What Makes This Conference Unique?</h4>
+        <h5>University & Research Integration</h5>
+        <p>Engage with professors and tourism researchers as they unveil cutting-edge studies and present future-ready tourism models rooted in real data and global trends.</p>
 
-                    <div className="row justify-content-between">
-                        <div className="col-lg-7">
+        <h5>Tourism Business Clinics</h5>
+        <p>Participate in one-on-one strategy clinics where top consultants and tourism experts evaluate your business and offer actionable insights for growth, positioning, and innovation.</p>
 
-                            <div className="mil-publication">
-                                <ul className="mil-post-top mil-list mil-dark mil-mb-30">
-                                    {/* <li className="mil-text-sm mil-up mil-mb-10"> {postData.author}</li> */}
-                                    <li className="mil-text-sm mil-up mil-mb-10">
-                                        <span className="mil-additional-text mil-text-sm mil-upper"><Date dateString={postData.date} /></span>
-                                    </li>
-                                </ul>
+        <h5>Investor Roundtable</h5>
+        <p>Gain entry into private investor networking sessions. Pitch your business to domestic and international investors actively looking for opportunities in the tourism and hospitality space.</p>
+      </div>
 
-                                <div className="mil-text mil-up mil-mb-40" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div style="flex: 1; min-width: 300px;">
+        <h5>Policy & Innovation Dialogue</h5>
+        <p>Join live dialogues with Ministry of Tourism officials, policy architects, and smart-city developers to explore how tourism can align with national development and digital transformation goals.</p>
 
-                                <div className="mil-divider-lg mil-mb-40"></div>
+        <h5>Tourism Lab: The Future of Experience</h5>
+        <p>Co-create the next wave of tourism with designers, technologists, and academics. This interactive innovation session focuses on building experiential travel offerings for Gen Z and millennial travelers.</p>
 
-                                {/* <div className="row">
-                                    {typeof postData.tags != "undefined" &&
-                                        <div className="col-lg-6">
-                                            <div className="row">
-                                                <div className="col-lg-4">
-                                                    <h6 className="mil-upper mil-up mil-mb-30">Tags:</h6>
-                                                </div>
-                                                <div className="col-lg-8">
-                                                    <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                                        {postData.tags.map((item, key) => (
-                                                            <li className="mil-text-sm" key={`post-tag-item-${key}`}><Link href={`/news/tag/${item.toLowerCase().replace(' ', '-')}`}>{item}</Link></li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    }
-                                    <div className="col-lg-6">
-                                        <div className="row">
-                                            <div className="col-lg-4">
-                                                <h6 className="mil-upper mil-up mil-mb-30">Share:</h6>
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                                    <li className="mil-text-sm"><a href="#.">Facebook</a></li>
-                                                    <li className="mil-text-sm"><a href="#.">Linkedin</a></li>
-                                                    <li className="mil-text-sm"><a href="#.">Reddit</a></li>
-                                                    <li className="mil-text-sm"><a href="#.">Pinterest</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+        <h3>Who Should Attend?</h3>
+        <ul>
+          <li>Tourism Startups & Entrepreneurs</li>
+          <li>Travel & Hospitality Businesses</li>
+          <li>Eco-Tourism Operators</li>
+          <li>Tech Providers in Travel & Booking</li>
+          <li>Government & Tourism Policy Planners</li>
+          <li>Academics & Hospitality Students</li>
+          <li>Tourism Marketing & Branding Experts</li>
+        </ul>
+<br/>
+        <h3>Be Part of the Future of Tourism</h3>
+        <p>If you’re a tourism business ready to innovate, collaborate, and grow, this is your chance to gain unparalleled access, insights, and influence.</p>
+        <p><strong>Note:</strong> Only 25–30 businesses will be selected to ensure intimate, high-quality interactions and outcomes.</p>
 
-
-                            </div>
-
-                        </div>
-                        {/* <div className="col-lg-5">
-
-                            <Sidebar />
-
-                        </div> */}
-                        <div className="col-lg-5">
-                        <Sidebar/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* blog end */}
-
-            {/* reply form */}
-            {/* <section className="mil-soft-bg mil-relative">
-          <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
-
-          <div className="container mil-p-120-90">
-              <div className="mil-background-grid mil-softened" />
-              <form>
-                  <div className="row justify-content-between">
-                      <div className="col-lg-6">
-
-                          <div className="mil-mb-60">
-                              <h3 className="mil-upper mil-up mil-mb-30">Leave a Reply</h3>
-
-                              <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                  <label className="mil-upper"><span>Write a comment</span><span className="mil-required">*</span></label>
-                                  <textarea cols="30" rows="10"></textarea>
-                              </div>
-                          </div>
-
-                      </div>
-                      <div className="col-lg-6">
-
-                          <div className="row align-items-end mil-mt-suptitle-offset">
-                              <div className="col-lg-6">
-
-                                  <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                      <label className="mil-upper"><span>Full name</span><span className="mil-required">*</span></label>
-                                      <input type="text" placeholder="" />
-                                  </div>
-
-                              </div>
-                              <div className="col-lg-6">
-
-                                  <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                      <label className="mil-upper"><span>Email address</span><span className="mil-required">*</span></label>
-                                      <input type="text" placeholder="email@mydomain.com" />
-                                  </div>
-
-                              </div>
-                              <div className="col-lg-6">
-
-                                  <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                      <label className="mil-upper"><span>Website</span><span className="mil-required">*</span></label>
-                                      <input type="text" placeholder="" />
-                                  </div>
-
-                              </div>
-                              <div className="col-lg-6">
-
-                                  <div className="mil-up mil-mb-30">
-                                      <button type="submit" className="mil-button mil-fw">Submit Comment</button>
-                                  </div>
-
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-              </form>
-          </div>
-      </section> */}
-            {/* reply form end */}
-
-            {/* comments */}
-            {/* <section>
-          <div className="container mil-p-120-90">
-              <div className="mil-background-grid mil-softened" />
-
-              <div className="row">
-                  <div className="col-lg-7">
-                      
-                      <h3 className="mil-upper mil-mb-60">Comments - <span className="mil-marker">03</span></h3>
-
-                      <ul className="mil-comments">
-                          <li>
-                              <div className="mil-comment">
-                                  <div className="mil-comment-head">
-                                      <div className="mil-user-info">
-                                          <img src="/img/faces/1.jpg" alt="portrait" className="mil-user-avatar" />
-                                          <div>
-                                              <h6 className="mil-upper mil-mb-5">Ponnappa Priya</h6>
-                                              <span className="mil-text-sm mil-dark-soft">September 23, 2023</span>
-                                          </div>
-                                      </div>
-                                      <a href="#." className="mil-mini-button">Reply</a>
-                                  </div>
-                                  <p>We realised we really wanted to catch a glimpse of what went on behind the scenes of the companies we looked up to.</p>
-                              </div>
-                              <ul className="mil-comments">
-                                  <li>
-                                      <div className="mil-comment">
-                                          <div className="mil-comment-head">
-                                              <div className="mil-user-info">
-                                                  <img src="/img/faces/2.jpg" alt="portrait" className="mil-user-avatar" />
-                                                  <div>
-                                                      <h6 className="mil-upper mil-mb-5">Tamzyn French</h6>
-                                                      <span className="mil-text-sm mil-dark-soft">September 23, 2023</span>
-                                                  </div>
-                                              </div>
-                                              <a href="#." className="mil-mini-button">Reply</a>
-                                          </div>
-                                          <p>We realised we really wanted to catch a glimpse of what went on behind the scenes of the companies we looked up to.</p>
-                                      </div>
-                                  </li>
-                              </ul>
-                          </li>
-                          <li>
-                              <div className="mil-comment">
-                                  <div className="mil-comment-head">
-                                      <div className="mil-user-info">
-                                          <img src="/img/faces/3.jpg" alt="portrait" className="mil-user-avatar" />
-                                          <div>
-                                              <h6 className="mil-upper mil-mb-5">Oscar Newman</h6>
-                                              <span className="mil-text-sm mil-dark-soft">September 23, 2023</span>
-                                          </div>
-                                      </div>
-                                      <a href="#." className="mil-mini-button">Reply</a>
-                                  </div>
-                                  <p>We realised we really wanted to catch a glimpse of what went on behind the scenes of the companies we looked up to.</p>
-                              </div>
-                          </li>
-                      </ul>
-
-                  </div>
-              </div>
-          </div>
-      </section> */}
-            {/* comments end */}
-        </>
-    );
+        <h4>Bonus Value for Subscribers</h4>
+        <p>If you’re subscribed to our Business Growth Subscription Package, you’ll receive complimentary entry to this exclusive conference — with direct access to mentorship, strategic advice, and real-time feedback from industry leaders and decision-makers.</p>
+      </div>
+    </div>
+  `
 };
-export default PostsDetail;
 
-export async function generateStaticParams() {
-    const paths = getAllPostsIds()
+export default function PostsDetail() {
+  return (
+    <>
+      <PageBannerTwo
+        title={staticPost.introTitle}
+        subTitle={staticPost.categories[0]}
+        bgImage={staticPost.image}
+      />
 
-    return paths
-}
-
-async function getSinglePostData(params) {
-    const postData = await getPostData(params.id)
-
-    if (!postData) {
-        notFound()
-    } else {
-        return postData
-    }
-}
-
-async function getSingleAuthorData(author_id) {
-    const authorData = await getAuthorData(author_id)
-
-    return authorData
+      <section>
+        <div className="container mil-p-120-60">
+          <div className="mil-background-grid mil-softened" />
+          <div className="row justify-content-between">
+            <div className="col-lg-7">
+              <div className="mil-publication mil-text mil-up mil-mb-40" dangerouslySetInnerHTML={{ __html: staticPost.contentHtml }} />
+            </div>
+            <div className="col-lg-5">
+              <Sidebar />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

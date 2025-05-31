@@ -17,14 +17,13 @@ introTitle: <span class="mil-accent">Premier</span> Tourism Industry Conference
 **Location:** Sri Lanka
 
 
-
 <div style="display: flex; gap: 40px; align-items: start; justify-content: space-between; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 300px;">
 
 ### About the Conference
 
-The Premier Tourism Industry Conference 2025 is a high-impact, invite-only gathering that brings together 25–30 forward-thinking tourism businesses with an elite network of university experts, investors, innovators, and policymakers.
+Te Premier Tourism Industry Conference 2025 is a high-impact, invite-only gathering that brings together 25–30 forward-thinking tourism businesses with an elite network of university experts, investors, innovators, and policymakers.
 
 Designed to drive collaboration, innovation, and growth, this conference is a powerful platform for shaping the future of Sri Lanka’s tourism sector—and influencing regional and global trends.
 
