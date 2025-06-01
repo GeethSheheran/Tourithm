@@ -1,97 +1,97 @@
-// import Link from "next/link";
+import Link from "next/link";
 
-// import PageBanner from "@components/PageBanner";
-// import Sidebar from "@components/Sidebar";
+import PageBanner from "@components/PageBanner";
+import Sidebar from "@components/Sidebar";
 
-// import { notFound } from 'next/navigation';
+import { notFound } from 'next/navigation';
 
-// import { getSortedCategoriesData } from "@library/categories";
-// import { getAllAuthorsIds, getAuthorData } from "@library/authors";
-// import { getAuthorPosts } from "@library/posts";
-// import Paginatedblog from "@/src/app/_components/PaginatedBlog";
+import { getSortedCategoriesData } from "@library/categories";
+import { getAllAuthorsIds, getAuthorData } from "@library/authors";
+import { getAuthorPosts } from "@library/posts";
+import Paginatedblog from "@/src/app/_components/PaginatedBlog";
 
-// export async function generateMetadata({ params }) {
-//   const authorData = await getSingleAuthorData(params);
+export async function generateMetadata({ params }) {
+  const authorData = await getSingleAuthorData(params);
   
-//   return {
-//     title: authorData.title + " | Author | conference",
-//   }
-// }
+  return {
+    title: authorData.title + " | Author | conference",
+  }
+}
 
-// async function blogAuthor( { params } ) {
-//   const categories = await getAllCategories();
-//   const posts = await getAllPosts(params);
-//   const authorData = await getSingleAuthorData(params);
+async function blogAuthor( { params } ) {
+  const categories = await getAllCategories();
+  const posts = await getAllPosts(params);
+  const authorData = await getSingleAuthorData(params);
 
-//   return (
-//     <>
+  return (
+    <>
       
-//       <PageBanner pageTitle={"Author: "+authorData.title} breadTitle={authorData.title} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Author: "+authorData.title} breadTitle={authorData.title} bgImage={"/img/photo/12.jpg"} />
       
-//       {/* blog */}
-//       <section>
-//           <div className="container mil-p-120-60">
-//               <div className="mil-background-grid mil-softened"></div>
-//               <div className="row justify-content-between">
-//                   <div className="col-lg-7">
-//                       {/* filter */}
-//                       <div className="mil-filter mil-up mil-mb-90">
-//                           <div className="mil-filter-links">
-//                               <Link href="/conference" className="mil-current">All</Link>
-//                               {categories.map((item, key) => (
-//                               <Link key={`categories-item-${key}`} href={`/conference/category/${item.id}`}>{item.title}</Link>
-//                               ))}
-//                           </div>
-//                       </div>
-//                       {/* filter end */}
+      {/* blog */}
+      <section>
+          <div className="container mil-p-120-60">
+              <div className="mil-background-grid mil-softened"></div>
+              <div className="row justify-content-between">
+                  <div className="col-lg-7">
+                      {/* filter */}
+                      <div className="mil-filter mil-up mil-mb-90">
+                          <div className="mil-filter-links">
+                              <Link href="/conference" className="mil-current">All</Link>
+                              {categories.map((item, key) => (
+                              <Link key={`categories-item-${key}`} href={`/conference/category/${item.id}`}>{item.title}</Link>
+                              ))}
+                          </div>
+                      </div>
+                      {/* filter end */}
                       
-//                       <Paginatedblog
-//                         items={posts}
-//                       />
+                      <Paginatedblog
+                        items={posts}
+                      />
 
-//                   </div>
-//                   <div className="col-lg-5">
+                  </div>
+                  <div className="col-lg-5">
 
-//                       <Sidebar />
+                      <Sidebar />
 
-//                   </div>
-//               </div>
-//           </div>
-//       </section>
-//       {/* blog end */}
+                  </div>
+              </div>
+          </div>
+      </section>
+      {/* blog end */}
 
-//     </>
-//   );
-// };
-// export default blogAuthor;
+    </>
+  );
+};
+export default blogAuthor;
 
-// export async function generateStaticParams() {
-//     const paths = getAllAuthorsIds()
-//     return paths
-// }
+export async function generateStaticParams() {
+    const paths = getAllAuthorsIds()
+    return paths
+}
 
-// async function getAllCategories() {
-//     const categoriesData = await getSortedCategoriesData()
+async function getAllCategories() {
+    const categoriesData = await getSortedCategoriesData()
 
-//     return categoriesData
-// }
+    return categoriesData
+}
 
-// async function getSingleAuthorData(params) {
-//     const authorData = await getAuthorData(params.id)
+async function getSingleAuthorData(params) {
+    const authorData = await getAuthorData(params.id)
 
-//     if ( !authorData ) {
-//         notFound()
-//     } else {
-//         return authorData
-//     }
-// }
+    if ( !authorData ) {
+        notFound()
+    } else {
+        return authorData
+    }
+}
 
-// async function getAllPosts( params ) {
-//     const authorPosts = await getAuthorPosts(params.id)
+async function getAllPosts( params ) {
+    const authorPosts = await getAuthorPosts(params.id)
 
-//     if (!authorPosts.length) {
-//         notFound()
-//     }
+    if (!authorPosts.length) {
+        notFound()
+    }
 
-//     return authorPosts
-// }
+    return authorPosts
+}
